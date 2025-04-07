@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+   
+   
+    background-color: #CEE5F2;
+}
+
+header{
+    
+    text-align: center;
+    background-color: #7C98B3;
+}
+header h1{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+
+
+.container nav{
+    font-size: 24px;
+    text-decoration: none;
+  margin: 8px;
+  padding: 8px;
+ 
+}
+
+
+
+.container nav a{
+    text-decoration: none;
+    color: black;
+    margin: 8px;
+
+}
+
+.images{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+
+}
+
+.images img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;/*Nose que es pero dice que ajusta la imagen */
+    margin-left: 20px;
+}
+.car{
+    display: flex;
+}
+
+.card{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+    font-family: "Chakra Petch", sans-serif;
+    background-color: #8BAAAD;
+    text-align: center;
+
+}
+
+.card:hover{
+    box-shadow: 0px 5px 10px #000;
+    transform: scale(1.10);
+    background-color: #706993;
+    
+}
+
+.card img{
+    width: 100%;
+    height: 175px;
+}
+
+.cardcontent h1{
+    color: #1C3738;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: #536B78;
+}
+
+footer h4{
+    text-align: center;
+}
